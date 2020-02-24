@@ -1,0 +1,71 @@
+/* for all section css apply in container */
+.container{ 
+    padding-bottom: 100px;
+}
+.top-font{
+    font-size: 21px;
+}
+
+
+/*Buy now button style */
+.buy-now-btn{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* minimum line-height for slides content  */
+.line-height{
+    line-height: 28px;
+
+}
+
+
+/* for product card style apply */
+.card{
+    box-shadow: 2px 2px 5px #aaaaaa;
+    border-radius: 10px;  
+   }
+.card-deck{
+    background-color: white;
+}
+
+
+/* categories underline design */
+.cat-highlight{
+    width: 130px;
+    height: 8px;
+    background-color:orange;
+    background-image:linear-gradient(45deg,orange,#ff00008c);
+    margin:0 auto;   
+}
+
+
+/* categories item style start*/
+.bag,.beauty,.shoes{
+    width: 220px;
+    height: 220px;    
+    box-shadow:0px 0px 8px #aaaaaa;
+    background-color: white;  
+  
+}
+.bag{
+    border-bottom-left-radius:25px;
+    border-top-right-radius: 12.5px;
+}
+.beauty,.shoes{
+    border-top-left-radius: 12.5px;
+    border-bottom-right-radius:25px ;
+}
+/* categories item style end */
+
+
+
+/* contact us section style */
+.contact{
+    box-shadow: 5px 5px 40px #aaaaaa;
+    border-radius: 13px;
+    padding:20px 25px;
+   
+}
